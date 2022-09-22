@@ -1,6 +1,6 @@
 
 var http =require('http'); // Import Node.js core module
-var GreensKiosk = require('./GreensKiosk');
+var GreensKiosk = require('./src/GreensKiosk');
 
 var server = http.createServer(function (req, res) {   // create web server
 
