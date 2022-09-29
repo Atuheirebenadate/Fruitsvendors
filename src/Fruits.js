@@ -1,4 +1,6 @@
 import React from "react";
+
+
 import { useEffect, useState } from "react";
 
 const Fruits =()=>{
@@ -28,6 +30,9 @@ return (
             <div key= {item.id}>  
             <p>Name: {item.name}</p>
             <p>Category: {item.category}</p>
+         <h4 style={{color:"blue"}}>List of products</h4>
+         <p style={{margin:"30px"}}>Name</p>
+         <p style={{margin:"30px"}}>Category</p>
             </div>
             ))}
         </div>

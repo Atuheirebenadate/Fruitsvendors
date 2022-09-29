@@ -1,12 +1,27 @@
 
 import './App.css';
-import Fruits from './Fruits';
+import Forms from './Forms';
+// import Fruits from './Fruits';
+import { Router } from 'react-router-dom';
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Fruits/>
+    <div className="Navbar">
+      <Forms/>
+
+      {/* <Fruits/> */}
+      {/* <Switch>
+          <Route path="/Form">
+        
+          </Route>
+          <Route path="/Fruits">
+          </Route>
+          <Route path="/Forms">
+          </Route>
+        </Switch> */}
     </div>
   );
 }
