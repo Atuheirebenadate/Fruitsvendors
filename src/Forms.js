@@ -1,5 +1,5 @@
 import React from "react";
-import './Form.css'
+import './Form.css';
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 
@@ -20,14 +20,7 @@ function Signup() {
                 </h1>
                 <h5>Sign Up  get your fevourate Gig</h5>
         
-            </div>
-            <div />
-            {/* <div className="col1">
-                <label className="myname">Name
-                <input type="name" name="fullname" placeholder=""></input>
-                </label>
-                <div/>
-                </div> */}
+            </div>    
           
             <div className='col'>
 
@@ -50,10 +43,10 @@ function Signup() {
                 <div>
                  {/* <button type="login">Sign in</button> */}
                     <Router>
-                    <Link to ="/Fruits">
-                    <button type="login">Explore</button> </Link>
-                    <a href="https://localhost:5000"target="_blank" rel="noreferrer">
-                    <button>Login</button>
+                    <Link to ="/fruits">
+                    <button type="login">Signup</button> </Link>
+                    <a href="https://localhost:5000"rel="noreferrer">
+                    <button>Explore</button>
                 </a>
                     </Router>
                     <div/>
@@ -61,12 +54,10 @@ function Signup() {
                     </div>
         
 
-                    <p>____________________________ or Login _____________________________</p>
+                    <p>____________________________ or Signup _____________________________</p>
 
             </div>
       
-        <div/>
-        <div/>
         <div className="container2">
             <div className="sub">
             <h5>Fruitvendors is the most marketable platform that contacts<br/>orders of  to fresh Fruits and vegetables</h5>
