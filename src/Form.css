@@ -63,4 +63,41 @@ body {
     width: 380px;
      height: 30px;
  }
+ h1{
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 9;
+    
+
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  } 
+ }
+ h5{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  } 
+ }
  
